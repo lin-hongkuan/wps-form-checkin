@@ -498,6 +498,7 @@ async function fetchCheckinRanges(shareId) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: '{}',
+    signal: AbortSignal.timeout(15000),
   });
   if (!res.ok) throw new Error('HTTP ' + res.status);
   const json = await res.json();
