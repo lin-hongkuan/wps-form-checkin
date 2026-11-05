@@ -1,0 +1,8 @@
+wps-checkin-cookies.json
+wps-checkin-config.json
+wps-checkin.log
+wps-checkin-*.png
+node_modules/
+.DS_Store
+.env
+*.local.json

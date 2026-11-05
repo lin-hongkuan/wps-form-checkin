@@ -1,0 +1,15 @@
+{
+  "formUrl": "https://f.wps.cn/ksform/cw/w/XXXXXXXX",
+  "name": "张三",
+  "studentId": "2023000000",
+  "autoLocation": true,
+  "rangeName": "",
+  "latitude": null,
+  "longitude": null,
+  "accuracy": 30,
+  "schedule": {
+    "weekday": 4,
+    "times": ["18:52", "19:20"],
+    "keepaliveEveryHours": 6
+  }
+}

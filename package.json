@@ -1,0 +1,25 @@
+{
+  "name": "wps-form-checkin",
+  "version": "1.0.0",
+  "description": "Automate WPS Form clock-in with auto-detected geofence, GCJ-02 correction and session renewal",
+  "type": "module",
+  "bin": {
+    "wps-checkin": "./wps-checkin.mjs"
+  },
+  "scripts": {
+    "locate": "node wps-checkin.mjs --locate",
+    "dry-run": "node wps-checkin.mjs --dry-run",
+    "status": "node wps-checkin.mjs --status"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "wps",
+    "checkin",
+    "geofence",
+    "cdp",
+    "automation"
+  ],
+  "license": "MIT"
+}
